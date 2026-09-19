@@ -1,0 +1,1 @@
+# permsy-adapter-boilerplate
