@@ -1,0 +1,51 @@
+{
+  "name": "permsy-adapter-boilerplate",
+  "version": "1.0.0",
+  "description": "An adapter boilerplate for the Permsy permission management engine.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "permsy",
+    "adapter",
+    "permissions",
+    "authorization",
+    "rbac"
+  ],
+  "author": "Ümit ULUSOY",
+  "license": "MIT",
+  "homepage": "https://github.com/Umit-Ulusoy/permsy-adapter-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/Umit-Ulusoy/permsy-adapter-boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umit-Ulusoy/permsy-adapter-boilerplate.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "permsy": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "permsy": "^1.0.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  }
+}
